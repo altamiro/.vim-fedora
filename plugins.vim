@@ -161,6 +161,7 @@ Plugin 'vim-scripts/slimv.vim'
 "" Lua Bundle
 Plugin 'xolox/vim-lua-ftplugin'
 Plugin 'xolox/vim-lua-inspect'
+Plugin 'xolox/vim-misc'
 
 
 " php
