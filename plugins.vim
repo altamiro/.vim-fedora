@@ -142,4 +142,31 @@ Plugin 'croaker/mustang-vim'
 Plugin 'nanotech/jellybeans.vim'
 "}}}
 
+" #### html ############################################################ {{{
+"" HTML Bundle
+Plugin 'amirh/HTML-AutoCloseTag'
+Plugin 'hail2u/vim-css3-syntax'
+Plugin 'gorodinskiy/vim-coloresque'
+Plugin 'tpope/vim-haml'
+Plugin 'mattn/emmet-vim'
+"}}}
+
+" #### javascript ############################################################ {{{
+"" Javascript Bundle
+Plugin 'jelera/vim-javascript-syntax'
+"}}}
+
+" #### php ############################################################ {{{
+"" PHP Bundle
+Plugin 'arnaud-lb/vim-php-namespace'
+"}}}
+
+" #### ruby ############################################################ {{{
+Plugin 'tpope/vim-rails'
+Plugin 'tpope/vim-rake'
+Plugin 'tpope/vim-projectionist'
+Plugin 'thoughtbot/vim-rspec'
+Plugin 'ecomba/vim-ruby-refactoring'
+"}}}
+
 call vundle#end()
