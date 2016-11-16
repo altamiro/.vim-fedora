@@ -172,17 +172,11 @@ Plugin 'ecomba/vim-ruby-refactoring'
 " #### nerdtree-git-plugin ############################################################ {{{
 Plugin 'scrooloose/nerdtree'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
-let g:NERDTreeIndicatorMapCustom = {
-    \ "Modified"  : "✹",
-    \ "Staged"    : "✚",
-    \ "Untracked" : "✭",
-    \ "Renamed"   : "➜",
-    \ "Unmerged"  : "═",
-    \ "Deleted"   : "✖",
-    \ "Dirty"     : "✗",
-    \ "Clean"     : "✔︎",
-    \ "Unknown"   : "?"
-    \ }
+"}}}
+"}}}
+
+" #### vim-simpledb ############################################################ {{{
+Plugin 'ivalkeen/vim-simpledb'
 "}}}
 
 call vundle#end()
