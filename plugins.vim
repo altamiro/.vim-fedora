@@ -131,56 +131,6 @@ nmap <unique> <c-s-x>  <Plug>ZoomWin
 nnoremap <silent> <C-w>o :only<CR>
 "}}}
 
-" c
-Plugin 'vim-scripts/c.vim'
-
-" go
-"" Go Lang Bundle
-Plugin 'fatih/vim-go', {'do': ':GoInstallBinaries'}
-
-" html
-"" HTML Bundle
-Plugin 'amirh/HTML-AutoCloseTag'
-Plugin 'hail2u/vim-css3-syntax'
-Plugin 'gorodinskiy/vim-coloresque'
-Plugin 'tpope/vim-haml'
-Plugin 'mattn/emmet-vim'
-
-
-" javascript
-"" Javascript Bundle
-Plugin 'jelera/vim-javascript-syntax'
-
-
-" lisp
-"" Lisp Bundle
-Plugin 'vim-scripts/slimv.vim'
-
-
-" lua
-"" Lua Bundle
-Plugin 'xolox/vim-lua-ftplugin'
-Plugin 'xolox/vim-lua-inspect'
-Plugin 'xolox/vim-misc'
-
-
-" php
-"" PHP Bundle
-Plugin 'arnaud-lb/vim-php-namespace'
-
-
-" python
-"" Python Bundle
-Plugin 'davidhalter/jedi-vim'
-
-
-" ruby
-Plugin 'tpope/vim-rails'
-Plugin 'tpope/vim-rake'
-Plugin 'tpope/vim-projectionist'
-Plugin 'thoughtbot/vim-rspec'
-Plugin 'ecomba/vim-ruby-refactoring'
-
 " #### Colors ############################################################ {{{
 Plugin 'tomasr/molokai'
 Plugin 'sjl/badwolf'

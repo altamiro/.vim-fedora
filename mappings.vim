@@ -24,22 +24,6 @@ endif
 noremap <F1> <nop>
 inoremap <F1> <nop>
 
-" Disable del and backspace (maybe I'll give them an usage in the future)
-nnoremap <Del> <nop>
-vnoremap <Del> <nop>
-nnoremap <BS> <nop>
-vnoremap <BS> <nop>
-
-" Disable arrow keys. Yeah, that's right baby, no need for them!
-nnoremap <up> <nop>
-inoremap <up> <nop>
-nnoremap <down> <nop>
-inoremap <down> <nop>
-nnoremap <left> <nop>
-inoremap <left> <nop>
-nnoremap <right> <nop>
-inoremap <right> <nop>
-
 " Disable K
 nnoremap K <nop>
 " ######################################################################## }}}
