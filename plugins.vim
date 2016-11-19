@@ -2,7 +2,11 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin('~/.vim/plugged')
 
 " #### Airline: A nice and light status line ############################# {{{
+Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
+
+" #### promptline ######################################### {{{
+Plugin 'edkolev/promptline.vim'
 
 function! Myffenc()
   return printf('%s%s', &ff, strlen(&fenc) > 0 ? ' ['.&fenc.']' : '')
