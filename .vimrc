@@ -103,6 +103,8 @@ let &showbreak='↪ '
 " Read again about this Settigns...
 " set list listchars=tab:▸,trail:·,nbsp:·,
 
+let NERDTreeIgnore = ['\.pyc$', '\.pyo$', '\.so$', '\.o$', '\.la$', '\.a$', '\.class$', '\~$', '\.beam$', '^Mnesia.', 'deps/', '\.hi$', 'vendor/']
+
 " Settigns for specific filetype
 augroup filetypedetect
     autocmd BufNewFile,BufRead *.c,*.h setlocal tabstop=4 softtabstop=4 shiftwidth=4 autoindent nowrap

@@ -153,3 +153,20 @@ map <F10> :echo "hi<" . synIDattr(synID(line("."),col("."),1),"name") . '> trans
     \ . synIDattr(synID(line("."),col("."),0),"name") . "> lo<"
     \ . synIDattr(synIDtrans(synID(line("."),col("."),1)),"name") . ">"<CR>
 " ######################################################################## }}}
+
+" Tabs
+map <silent> <C-T> :tabnew<CR>
+map <silent> <kPageUp> :tabprevious<CR>
+map <silent> <kPageDown> :tabnext<CR>
+map <silent> <C-J> :tabprevious<CR>
+map <silent> <C-K> :tabnext<CR>
+imap <silent> <C-T> <ESC>:tabnew<CR>i
+imap <silent> <C-W> <ESC>:tabclose<CR>i
+imap <silent> <kPageUp> <C-O>:tabprevious<CR>
+imap <silent> <kPageDown> <C-O>:tabnext<CR>
+map <silent> <C-H> :tabfirst<CR>
+imap <silent> <C-H> <C-O>:tabfirst<CR>
+
+nnoremap <silent> <F7> :TagbarToggle<CR>
+nnoremap <silent> <F8> :TlistToggle<CR>
+nnoremap <silent> <F3> :NERDTreeToggle<CR> 
