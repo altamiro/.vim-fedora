@@ -152,7 +152,6 @@ Plugin 'amirh/HTML-AutoCloseTag'
 Plugin 'hail2u/vim-css3-syntax'
 Plugin 'gorodinskiy/vim-coloresque'
 Plugin 'tpope/vim-haml'
-Plugin 'mattn/emmet-vim'
 "}}}
 
 " #### javascript ############################################################ {{{
