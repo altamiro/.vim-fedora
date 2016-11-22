@@ -15,7 +15,6 @@ source ~/.vim/plugins.vim
 " Some accelerators
 let $PLUGINS='~/.vim/plugins.vim'
 let $PYTHON='~/.vim/confs/python.vim'
-let $RST='~/.vim/confs/rst.vim'
 
 " Mappings
 source ~/.vim/mappings.vim

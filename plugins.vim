@@ -173,10 +173,12 @@ Plugin 'thoughtbot/vim-rspec'
 Plugin 'ecomba/vim-ruby-refactoring'
 "}}}
 
-" #### nerdtree-git-plugin ############################################################ {{{
+" #### nerdtree-git-plugin / vim-nerdtree-tabs ############################################################ {{{
 Plugin 'scrooloose/nerdtree'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
-"}}}
+Plugin 'jistr/vim-nerdtree-tabs'
+
+let g:nerdtree_tabs_open_on_console_startup=1
 "}}}
 
 " #### vim-simpledb ############################################################ {{{
