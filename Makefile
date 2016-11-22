@@ -33,6 +33,7 @@ build-deps:
 
 fonts:
 	$(info Copying fonts...)
-	cp -r fonts/ ~/.fonts
+	cp -rp fonts/ ~/.local/share/fonts
+	fc-cache -f ~/.local/share/fonts
 
 PHONY: clean deploy link install-vundle install-bundles build-deps fonts

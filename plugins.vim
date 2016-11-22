@@ -177,12 +177,32 @@ Plugin 'ecomba/vim-ruby-refactoring'
 Plugin 'scrooloose/nerdtree'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
 Plugin 'jistr/vim-nerdtree-tabs'
+Plugin 'int3/vim-taglist-plus'
+Plugin 'majutsushi/tagbar'
 
 let g:nerdtree_tabs_open_on_console_startup=1
 "}}}
 
 " #### vim-simpledb ############################################################ {{{
 Plugin 'ivalkeen/vim-simpledb'
+"}}}
+
+" #### powerline ############################################################ {{{
+Plugin 'powerline/powerline'
+"}}}
+
+" #### vimshell ############################################################ {{{
+Plugin 'Shougo/vimshell.vim'
+"}}}
+
+" #### emmet-vim ############################################################ {{{
+Plugin 'mattn/emmet-vim'
+
+let g:user_emmet_mode='n'    "only enable normal mode functions.
+let g:user_emmet_mode='inv'  "enable all functions, which is equal to
+let g:user_emmet_mode='a'    "enable all function in all mode.
+let g:user_emmet_install_global = 0
+let g:user_emmet_leader_key='<C-Z>'
 "}}}
 
 call vundle#end()

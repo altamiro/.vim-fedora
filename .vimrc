@@ -112,6 +112,7 @@ augroup filetypedetect
     autocmd BufNewFile,BufRead *.py source ~/.vim/confs/python.vim
     autocmd vimenter * NERDTree
     autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+    autocmd FileType html,css EmmetInstall
     " Autodestroy fugitive buffers
     autocmd BufReadPost fugitive://* set bufhidden=delete
 augroup END
