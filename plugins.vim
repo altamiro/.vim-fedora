@@ -92,6 +92,8 @@ let g:syntastic_error_symbol = '✗'
 let g:syntastic_warning_symbol = '⚠'
 let g:syntastic_check_on_open = 1
 let g:syntastic_loc_list_height = 3
+let g:syntastic_python_pylint_exec = '/usr/bin/python3'
+let g:syntastic_python_pylint_args = ['-m', 'pylint']
 " }}}
 
 " #### Rainbow: Rainbow parenthesis ###################################### {{{
