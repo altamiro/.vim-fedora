@@ -22,6 +22,11 @@ install-vundle:
 	$(info Installing Vundle...)
 	git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
+install-python-mode:
+	$(info Installing Python-Mode...)
+	cd ~/.vim/bundle
+	git clone https://github.com/klen/python-mode.git
+
 install-bundles:
 	$(info Installing bundles...)
 	vim +PluginInstall +qall
@@ -36,4 +41,4 @@ fonts:
 	cp -rp fonts/ ~/.local/share/fonts
 	fc-cache -f ~/.local/share/fonts
 
-PHONY: clean deploy link install-vundle install-bundles build-deps fonts
+PHONY: clean deploy link install-vundle install-bundles install-python-mode build-deps fonts
