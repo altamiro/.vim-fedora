@@ -13,7 +13,7 @@ backup:
 	-mv ~/.viminfo $(VIMBKP)/
 	-mv ~/.vimtags $(VIMBKP)/
 
-deploy: link install-vundle install-bundles build-deps fonts
+deploy: link install-vundle install-python-mode install-bundles build-deps fonts
 
 link:
 	cd ~/ && ln -s ~/.vim/.vimrc .vimrc
