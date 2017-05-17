@@ -100,6 +100,9 @@ set autoread
 " String to put at the start of lines that have been wrapped "
 let &showbreak='↪ '
 
+let g:syntastic_python_pylint_exec = 'python3'
+let g:syntastic_python_pylint_args = ['-m', 'pylint']
+
 " Read again about this Settigns...
 " set list listchars=tab:▸,trail:·,nbsp:·,
 
