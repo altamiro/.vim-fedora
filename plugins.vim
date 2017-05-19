@@ -150,7 +150,6 @@ Plugin 'nanotech/jellybeans.vim'
 
 " #### html ############################################################ {{{
 "" HTML Bundle
-Plugin 'amirh/HTML-AutoCloseTag'
 Plugin 'hail2u/vim-css3-syntax'
 Plugin 'gorodinskiy/vim-coloresque'
 Plugin 'tpope/vim-haml'
