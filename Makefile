@@ -34,7 +34,7 @@ install-bundles:
 build-deps:
 	$(info Building dependencies...)
 	sudo dnf install cmake clang clang-devel wmctrl automake gcc gcc-c++ kernel-devel python-devel python3-devel -y
-	cd ~/.vim/plugged/YouCompleteMe && ./install.py --all
+	cd ~/.vim/plugged/YouCompleteMe && ./install.py --clang-completer
 
 fonts:
 	$(info Copying fonts...)
