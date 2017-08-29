@@ -48,7 +48,8 @@ else
     colorscheme desert
 endif
 
-
+" copy and paste with the mouse
+set mouse=r
 " Shows line numbers
 set number
 " Always shows the ruler (cursor position and etc)
