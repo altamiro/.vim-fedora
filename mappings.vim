@@ -170,3 +170,9 @@ imap <silent> <C-H> <C-O>:tabfirst<CR>
 nnoremap <silent> <F7> :TagbarToggle<CR>
 nnoremap <silent> <F8> :TlistToggle<CR>
 nnoremap <silent> <F3> :NERDTreeToggle<CR> 
+
+" Start interactive EasyAlign in visual mode (e.g. vipga)
+xmap ga <Plug>(EasyAlign)
+
+" Start interactive EasyAlign for a motion/text object (e.g. gaip)
+nmap ga <Plug>(EasyAlign)

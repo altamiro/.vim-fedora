@@ -58,6 +58,12 @@ vmap s S
 " #### Snippets: Ultisnips + vim-snippets ############################### {{{
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
+" Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+
+" If you want :UltiSnipsEdit to split your window.
 let g:UltiSnipsEditSplit="vertical"
 nnoremap <silent> <leader>es :UltiSnipsEdit<CR>
 " }}}
@@ -155,11 +161,6 @@ Plugin 'gorodinskiy/vim-coloresque'
 Plugin 'tpope/vim-haml'
 "}}}
 
-" #### javascript ############################################################ {{{
-"" Javascript Bundle
-Plugin 'jelera/vim-javascript-syntax'
-"}}}
-
 " #### php ############################################################ {{{
 "" PHP Bundle
 Plugin 'arnaud-lb/vim-php-namespace'
@@ -193,6 +194,25 @@ Plugin 'powerline/powerline'
 
 " #### vimshell ############################################################ {{{
 Plugin 'Shougo/vimshell.vim'
+"}}}
+
+" #### Shorthand notation; fetches https://github.com/junegunn/vim-easy-align ############################################################ {{{
+Plugin 'junegunn/vim-easy-align'
+"}}}
+
+" #### dashboard ############################################################ {{{
+Plugin 'https://github.com/junegunn/vim-github-dashboard.git'
+"}}}
+
+" #### javascript ############################################################ {{{
+"" Javascript Bundle
+Plugin 'pangloss/vim-javascript'
+Plugin 'jelera/vim-javascript-syntax'
+Plugin 'othree/yajs.vim'
+Plugin 'mxw/vim-jsx'
+
+let g:jsx_ext_required = 0 " Allow JSX in normal JS files
+let g:jsx_pragma_required = 1
 "}}}
 
 " #### emmet-vim ############################################################ {{{

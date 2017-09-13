@@ -49,7 +49,7 @@ else
 endif
 
 " copy and paste with the mouse
-set mouse=r
+set mouse=a
 " Shows line numbers
 set number
 " Always shows the ruler (cursor position and etc)
@@ -98,6 +98,10 @@ set wildmode=list:longest
 set completeopt-=preview
 " Automatically read a file that has changed on disk
 set autoread
+set tabstop=4
+set shiftwidth=4
+set expandtab
+
 " String to put at the start of lines that have been wrapped "
 let &showbreak='↪ '
 
@@ -120,6 +124,7 @@ let g:pymode_python = 'python3'
 " Settigns for specific filetype
 augroup filetypedetect
     autocmd BufNewFile,BufRead *.c,*.h setlocal tabstop=4 softtabstop=4 shiftwidth=4 autoindent nowrap
+    autocmd FileType css set omnifunc=csscomplete#CompleteCSS
     autocmd FileType c,cpp,objc,objcpp call rainbow#load()
     autocmd BufNewFile,BufRead *.py source ~/.vim/confs/python.vim
     autocmd vimenter * NERDTree
