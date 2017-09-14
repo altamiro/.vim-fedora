@@ -204,6 +204,11 @@ Plugin 'junegunn/vim-easy-align'
 Plugin 'https://github.com/junegunn/vim-github-dashboard.git'
 "}}}
 
+" #### dbext ############################################################ {{{
+Plugin 'https://github.com/vim-scripts/dbext.vim.git'
+"}}}
+
+
 " #### javascript ############################################################ {{{
 "" Javascript Bundle
 Plugin 'pangloss/vim-javascript'
