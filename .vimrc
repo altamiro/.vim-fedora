@@ -132,7 +132,7 @@ augroup filetypedetect
     autocmd FileType html,css EmmetInstall
     " Autodestroy fugitive buffers
     autocmd BufReadPost fugitive://* set bufhidden=delete
-    autocmd VimEnter * DBCompleteTables
+    " autocmd VimEnter * DBCompleteTables
 augroup END
 
 " Each profile has the form: dbext.vim
