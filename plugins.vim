@@ -205,7 +205,7 @@ Plugin 'https://github.com/junegunn/vim-github-dashboard.git'
 "}}}
 
 " #### dbext ############################################################ {{{
-Plugin 'https://github.com/vim-scripts/dbext.vim.git'
+" Plugin 'https://github.com/vim-scripts/dbext.vim.git'
 "}}}
 
 
